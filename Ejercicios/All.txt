@@ -1,0 +1,24 @@
+.text
+mrs r0,cpsr
+mov     r0, #0b11010011   @ Modo SVC, FIQ&IRQ desact
+msr spsr_cxsf,r0
+add r0,pc,#4
+msr ELR_hyp,r0
+eret
+
+@@@@@@@@@ Aquí ya empieza el código normal, estamos en SVC 
+/* Agrego vectores de interrupción */
+        mov r0, #0
+        ADDEXC  0x18, irq_handler
+        ADDEXC  0x1c, fiq_handler
+
+/* Inicializo la pila en modos FIQ, IRQ y SVC */
+        mov     r0, #0b11010001   @ Modo FIQ, FIQ&IRQ desact
+        msr     cpsr_c, r0
+        mov     sp, #0x4000
+        mov     r0, #0b11010010   @ Modo IRQ, FIQ&IRQ desact
+        msr     cpsr_c, r0
+        mov     sp, #0x8000
+        mov     r0, #0b11010011   @ Modo SVC, FIQ&IRQ desact
+        msr     cpsr_c, r0
+        mov     sp, #0x8000000

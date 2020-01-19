@@ -1,0 +1,417 @@
+
+.set NUMNOTAS, 129
+song1:
+.word DOH
+.word LAs
+.word DOH
+.word LAs
+.word DOH
+.word LAs
+.word FAH
+.word REHs
+.word REHs
+
+.word FA
+.word DOH
+.word FAH
+.word FA
+.word LAs
+.word REs
+.word FA
+.word DOH
+
+.word FAH
+.word FA
+.word LAs
+.word REs
+.word SILEN
+.word DOH
+.word SILEN
+
+.word FA
+.word DOH
+.word FAH
+.word FA
+.word LAs
+.word REs
+.word FA
+.word DOH
+
+.word FAH
+.word FA
+.word LAs
+.word REs
+.word SILEN
+.word DOH
+.word SILEN
+
+.word MI
+.word SOLs
+.word REH
+.word RE
+.word FAs
+.word DOH
+.word MI
+.word SOLs
+
+.word REH
+.word RE
+.word FAs
+.word DOH
+.word SILEN
+.word LAs
+.word SILEN
+
+.word MI
+.word SOLs
+.word REH
+.word RE
+.word FAs
+.word DOH
+.word MI
+.word SOLs
+
+.word REH
+.word RE
+.word FAs
+.word DOH
+.word SILEN
+.word LAs
+.word SILEN
+
+.word DOH
+.word LAs
+.word DOH
+.word LAs
+.word FAs
+.word MI
+.word SILEN
+.word DOH
+
+.word SILEN
+.word LAs
+.word DOH
+.word LAs
+.word FAs
+.word MI
+.word SILEN
+
+.word SI
+.word LA
+.word SI
+.word LA
+.word MI
+.word RE
+.word SILEN
+.word SI
+
+.word SILEN
+.word LA
+.word SI
+.word LA
+.word MI
+.word RE
+.word SILEN
+
+.word DOH
+.word LAs
+.word DOH
+.word LAs
+.word FAs
+.word MI
+.word SILEN
+.word DOH
+
+.word SILEN
+.word LAs
+.word DOH
+.word LAs
+.word FAs
+.word MI
+.word MI
+
+.word SI
+.word LA
+.word SI
+.word LA
+.word MI
+.word RE
+.word SILEN
+.word SI
+
+.word SILEN
+.word LA
+.word SI
+.word LA
+.word MI
+.word RE
+.word RE
+
+@song2
+.set NUMNOTAS2,4
+song2:
+.word LA
+.word LAs
+.word SI
+.word DOH
+
+@song3
+.set NUMNOTAS3,42
+song3:
+.word FAs
+.word FA
+.word REs
+.word DOs
+.word REs
+.word LABs
+
+.word DO
+.word SILEN
+.word SOLBs
+.word SILEN
+.word REs
+.word FA
+
+.word FAs
+.word SILEN
+.word SOLs
+.word SILEN
+.word DOHs
+.word SILEN
+
+.word LAs
+.word LAs
+.word SILEN
+
+.word FAs
+.word FA
+.word REs
+.word DOs
+.word REs
+.word LABs
+
+.word DO
+.word SILEN
+.word SOLBs
+.word SILEN
+.word REBs
+.word FAB
+
+.word FABs
+.word SILEN
+.word FAB
+.word SILEN
+.word DOBs
+.word SILEN
+
+.word REBs
+.word REBs
+.word SILEN
+
+time:
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 631579
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 315789
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 315789
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 315789
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 315789
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 315789
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 315789
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 315789
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 157895
+.word 315789
+
+@song2
+time2:
+.word 400000
+.word 400000
+.word 400000
+.word 1200000
+
+@song3
+time3:
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+
+.word BL
+.word COR
+.word COR
+
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+.word COR
+
+.word BL
+.word COR
+.word COR
+

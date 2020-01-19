@@ -1,0 +1,6 @@
+
+@@@@@@@@@ Aquí ya empieza el código normal, estamos en SVC 
+/* Agrego vectores de interrupción */
+        mov r0, #0
+        ADDEXC  0x18, irq_handler
+        ADDEXC  0x1c, fiq_handler
